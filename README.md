@@ -34,7 +34,7 @@ key - password   value - secret
 key - username   value - admin
 key - grant_type value - password
 
-Use the access token to hit private, admin having value for Authorization key as "bearer <access-token>", double quotes are not required
+Use the access token to hit private, admin having value for Authorization key as "bearer access-token", double quotes are not required
 
 http://localhost:8080/public
 http://localhost:8080/private
